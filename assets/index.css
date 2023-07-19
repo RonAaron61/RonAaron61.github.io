@@ -1,0 +1,191 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.topNav {
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;  
+}
+.container-fluid{
+    text-align: center;
+}
+.language{
+    position: absolute;
+    padding: 15px;
+}
+
+/* Style the links inside the navigation bar */
+.topNav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 16px;
+    width: 80px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;  
+}
+
+/* Change the color of links on hover */
+.topNav a:hover {
+    background-color: #fefefe;
+    color: black;
+}
+.fa-language:hover{
+    color: #9992f9 !important;
+}
+
+/* Add a color to the active/current link */
+/*
+.topNav a.active {
+    background-color: #4980ff;
+    color: white;   
+}
+*/
+
+
+/* ========== Name Profile ========== */
+.pageHeader{
+    background-image: url('image/background-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 90px 90px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.pageHeader h1{
+    font-size: 40px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.pageHeader h2{
+    font-size: 23px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.text-center{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+/* ========== ABOUT ========== */
+.row{
+    padding: 20px 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.row h1{
+    font-size: 40px;
+}
+.row p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 32px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* ========== SWOT ========== */
+.swot{
+    background-color: #437cdf;
+    font-family: sans-serif;
+}
+.swot h2{
+    color: white;
+    font-size: 35px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding: 8px;
+}
+.grid-item{
+    font-size: 20px;
+    color:white;
+}
+.grid-item li{
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* ========= EXPERIENCE ========= */
+.experience{
+    background-color: #86b3ff;
+    font-family: sans-serif; 
+} 
+.experience h2{
+    color: black;
+    font-size: 35px;
+}
+.exp-list p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+
+/* ========== PERSONAL PROJECT ========= */
+.project h2{
+    font-size: 35px;
+}
+.project-list{
+    text-align: left;
+    font-size: 20px;
+}
+.personal-project p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.thesis p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+
+/* ========== FOOTER ========== */
+.contact{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.row a{ /* href without underline */
+    text-decoration: none;
+}
+
+.media{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.media li{
+    display: inline-block;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 17px;
+}
+.fa-linkedin:hover{
+    color: #342e89 !important;
+}
+.fa-github:hover{
+    color: #342e89 !important;
+}
+.fa-youtube:hover{
+    color: #342e89 !important;
+}
