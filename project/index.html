@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Experience
+        </title>
+        <link rel="shortcut icon" type="image/x-icon" href="image/logo_placeholder.png" />
+        <script src="https://kit.fontawesome.com/10a8743776.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/index.css">
+    </head>
+    
+    <body bgcolor= "white">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">
+                    Project
+                </h2>
+                <br>
+                <div class="project-list">
+                    <div class="personal-project">
+                        <h3>
+                            Proyek Pribadi
+                        </h3>
+                        <p>
+                            Terkadang saya mencoba membuat sesuatu di waktu luang saya. 
+                            Terkadang hal yang berguna dan terkadang hal yang tidak berguna. 
+                            Walaupun terkadang sesuatu yang saya buat tidak sempurna 
+                            tetapi hal ini bisa menambah pengalaman <i>problem solving</i> 
+                            serta <i>trial and error</i> saya
+                        </p>
+                        <br>
+                        <li>
+                            EMG-ECG Module for Microcontroller
+                            <p>
+                                Saya mencoba membuat modul EMG-ECG untuk mikrokontroler seperti 
+                                Arduino atau ESP. Modul terdiri dari penguat instrumen menggunakan 
+                                IC AD620 dan beberapa filter bandpass dasar dengan inverting amplifier 
+                                menggunakan IC Op-amp. Setelah beberapa penyesuaian gain, modul 
+                                dapat mendeteksi gerakan otot pada otot fleksor lengan bawah dan 
+                                detak jantung, hanya dengan 3 koneksi ke mikrokontroler (2 untuk suplly dan 1 untuk output).
+                                Modul ini juga dapat digunakan sebagai sensor untuk menggerakan robot tangan.
+                                 <a href="https://github.com/RonAaron61/EMG-ECG_Arduino">GitHub</a>
+                            </p>
+                        </li>
+                        <li>
+                            Virtual Mouse-Keyboard
+                            <p>
+                                Saya membuat mouse dan keyboard virtual menggunakan kamera sebagai input. 
+                                Kamera mendeteksi lokasi tangan dan memetakannya dengan lebar dan tinggi 
+                                monitor kemudian memindahkan kursor ke lokasi tertentu, serta juga bekerja sebagai keyboard virtual. 
+                                Saya puas dengan hasilnya, meski belum sempurna, dan masih terbuka untuk pengembangan 
+                                lebih lanjut.
+                                 <a href="https://github.com/RonAaron61/Virtual-Mouse-Keyboard">GitHub</a>
+                            </p>
+                        </li>
+                        <li>
+                            Smart trash bin
+                            <p>
+                                Pada project ini saya membuat sebuah tempat sampah IoT pintar yang dapat otomatis
+                                terbuka ketika terdapat tangan di depan tempat sampah, atau ketika terdapat
+                                ketukan/dorongan. Sehingga pengguna tidak perlu menyentuh tempat sampah Sehingga
+                                mengurangi kemungkinan terjadinya penyebaran kuman atau penyakit melalui tempat sampah.
+                                Tempat sampah ini juga memiliki sensor untuk mengetahui apakah isi dari tempat sampah
+                                sudah penuh atau belum, dan dapat dilihat melalui aplikasi blink karena tempat sampah ini 
+                                juga terhubung ke internet.
+                                <a href="https://github.com/RonAaron61/smart_trashbin">GitHub</a>
+                            </p>
+                        </li>
+                        <li>
+                            Kamera "CCTV" pengikut wajah sederhana
+                            <p>
+                                sebuah kamera yang dapat mengikuti posisi wajah dari seseorang secara otomatis.
+                                Alat ini menggunakan kamera webcam sebagai input video, yang kemudian akan dibaca oleh 
+                                program python menggunakan library OpenCV dan Mediapipe untuk mendeteksi posisi wajah dan mengirimkan
+                                posisi wajah tersebut ke arduino yang kemudian digunakan untuk menggerakan motor servo 
+                                untuk menggerakan kamera webcam keposisi wajah target. 
+                                <a href="https://github.com/RonAaron61/Face-following-camera"> GitHub</a>
+                            </p>
+                        </li>
+                        <li>
+                            Face following eye
+                            <p>
+                                Serupa seperti pada project diatas tetapi output dari alat ini bukanlah menggerakan
+                                kamera kearah wajah subjet, tetpai dari koordinat posisi wajah subjek kemudian digunakna 
+                                untuk menggerakan suatu animasi bergambar mata yang akan membuat seolah selalu melihat
+                                karah posisi subject. Menggunakan layar OLED 0.96" sebagai output.
+                                <a href="https://github.com/RonAaron61/EyeFollowingFace">GitHub</a>
+                            </p>
+                        </li>
+                        <li>
+                            Conway's game of life
+                            <p>
+                                Membuat aplikasi conway's game of life menggunakan program python dengan library PyGame,
+                                dimana pengguna dapat menyesuaikan besar area permainan, dan letak mulai permainan.
+                                <a href="https://github.com/RonAaron61/Game-of-life-Conway">GitHub</a>
+                            </p>
+                        </li>
+                        <li>
+                            Bioimpedance measure using Microcontroller
+                            <p>
+                                Alat untuk mengukur bioimpedansi seseorang, menggunakan Microcontroller sebagai pengolah
+                                dan pembaca sinyal hasil pengukuran, dan menampilkannya. Alat yang dibuat terdiri dari
+                                penghasil sinyal (<i>signal generator</i>) dimana menggunkan rangkaian wien bridge oscillator
+                                untuk menghasilkan sinyal sinus, kemudian VCCS untuk mengubah input tegangan menjadi sumber arus 
+                                agar aman saat masuk kedalam tubuh, kemudian sinyal dibaca menggunakan instrument amplifier sebagi 
+                                penguat agar mudah dibaca, dan diubah menjadi sinyal DC untuk dibaca.
+                                <a href="">On Going</a>
+                            </p> 
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="contact">
+                <div class="row">
+                    <h5>
+                        <strong>
+                            Valentinus Mahendra Aaron Quendangen
+                        </strong>
+                    </h5>
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="mailto:aaronvalentinus@gmail.com">
+                        aaronvalentinus@gmail.com
+                    </a>
+                    <br>
+                    <ul class="media">
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/valentinus-mahendra-aaron-quendangen-568898282">
+                                <i class="fa-brands fa-linkedin fa-2xl" style="color: #558dec;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/RonAaron61">
+                                <i class="fa-brands fa-github fa-2xl" style="color: #558dec;"></i>
+                            </a>
+                        </li>
+                        <!--
+                        <li>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                <i class="fa-brands fa-youtube fa-2xl" style="color: #558dec;"></i>
+                            </a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>  
+</html>
