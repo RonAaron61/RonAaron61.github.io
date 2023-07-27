@@ -1,0 +1,66 @@
+body{
+    margin: 15px;
+    padding: 25px;
+    font-family: sans-serif;
+}
+
+.row{
+    padding: 20px 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.row h2{
+    font-size: 35px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.project h2{
+    font-size: 35px;
+}
+.project-list{
+    text-align: left;
+    font-size: 20px;
+}
+.personal-project p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/** Footer **/
+.contact{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.row a{ /* href without underline */
+    text-decoration: none;
+}
+
+.media{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.media li{
+    display: inline-block;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 17px;
+}
+.fa-linkedin:hover{
+    color: #342e89 !important;
+}
+.fa-github:hover{
+    color: #342e89 !important;
+}
+.fa-youtube:hover{
+    color: #342e89 !important;
+}
