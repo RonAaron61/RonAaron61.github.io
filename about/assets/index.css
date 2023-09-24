@@ -165,7 +165,7 @@ body{
 
 /* ========= EXPERIENCE ========= */
 .experience{
-    background-color: #86b3ff;
+    background-color: #aac7f9;
     font-family: sans-serif; 
 } 
 .experience h2{
@@ -176,7 +176,12 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 16px;
-    color: black;
+    color: black;  
+}
+
+.exp-list dl{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
