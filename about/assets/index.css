@@ -165,7 +165,7 @@ body{
 
 /* ========= EXPERIENCE ========= */
 .experience{
-    background-color: #aac7f9;
+    background-color: #ffffff;
     font-family: sans-serif; 
 } 
 .experience h2{
@@ -186,6 +186,10 @@ body{
 
 
 /* ========== PERSONAL PROJECT ========= */
+.project{
+    background-color: #bad3fc;
+    font-family: sans-serif; 
+}
 .project h2{
     font-size: 35px;
 }
@@ -202,6 +206,27 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 16px;
+}
+
+
+/* ========== Skill ========== */
+.skill h2{
+    font-size: 35px;
+}
+
+.skill-my{
+    text-align: left;
+}
+
+.skill-my p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.skill-list{
+    margin-left: 10px;
+    margin-right: 10px; 
 }
 
 
