@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-            Experience
+            Project
         </title>
         <link rel="shortcut icon" type="image/x-icon" href="image/logo_placeholder.png" />
         <script src="https://kit.fontawesome.com/10a8743776.js" crossorigin="anonymous"></script>
@@ -19,94 +19,104 @@
                 <div class="project-list">
                     <div class="personal-project">
                         <h3>
-                            Proyek Pribadi
+                            Persoal Fun Project
                         </h3>
                         <p>
-                            Terkadang saya mencoba membuat sesuatu di waktu luang saya. 
-                            Terkadang hal yang berguna dan terkadang hal yang tidak berguna. 
-                            Walaupun terkadang sesuatu yang saya buat tidak sempurna 
-                            tetapi hal ini bisa menambah pengalaman <i>problem solving</i> 
-                            serta <i>trial and error</i> saya
+                            Sometimes I try to make something in my spare time. Sometimes useful things and 
+                            sometimes useless things. Although sometimes the things I make are not 
+                            perfect but this can add to my experience of trial and error                  
                         </p>
                         <br>
                         <li>
                             EMG-ECG Module for Microcontroller
                             <p>
-                                Saya mencoba membuat modul EMG-ECG untuk mikrokontroler seperti 
-                                Arduino atau ESP. Modul terdiri dari penguat instrumen menggunakan 
-                                IC AD620 dan beberapa filter bandpass dasar dengan inverting amplifier 
-                                menggunakan IC Op-amp. Setelah beberapa penyesuaian gain, modul 
-                                dapat mendeteksi gerakan otot pada otot fleksor lengan bawah dan 
-                                detak jantung, hanya dengan 3 koneksi ke mikrokontroler (2 untuk suplly dan 1 untuk output).
-                                Modul ini juga dapat digunakan sebagai sensor untuk menggerakan robot tangan.
-                                 <a href="https://github.com/RonAaron61/EMG-ECG_Arduino">GitHub</a>
+                                I try making an EMG-ECG module for a microcontroller like Arduino or ESP. 
+                                    The module consists of instrument amplifier using AD620 IC and some basic 
+                                    bandpass filters with an inverting amplifier using Op-amp IC. After some 
+                                    adjustment in the gain, the module can detect muscle movement in the forearm
+                                    flexor muscle and heartbeat, with only 3 connections to the microcontroller 
+                                    (2 for the supply and 1 for the output). Then the output of the signal I try to 
+                                    used it as a signal to move robotic hand.
+                                 <a href="https://github.com/RonAaron61/EMG-ECG_Arduino"><b>GitHub</b></a>
                             </p>
                         </li>
                         <li>
                             Bioimpedance measure using Microcontroller
                             <p>
-                                Alat untuk mengukur bioimpedansi seseorang, menggunakan Microcontroller sebagai pengolah
-                                dan pembaca sinyal hasil pengukuran, dan menampilkannya. Alat yang dibuat terdiri dari
-                                penghasil sinyal (<i>signal generator</i>) dimana menggunkan rangkaian wien bridge oscillator dan Module AD9833
-                                untuk menghasilkan sinyal sinus, kemudian VCCS untuk mengubah input tegangan menjadi sumber arus 
-                                agar aman saat masuk kedalam tubuh, kemudian sinyal dibaca menggunakan instrument amplifier sebagi 
-                                penguat agar mudah dibaca, dan diubah menjadi sinyal DC untuk dibaca oleh microcontroller. Hasil alat
-                                dapat membaca nilai impedance baik pada resistor maupun pada tubuh manusia, dan dapat diimplementasikan 
-                                sebagai estimasi bagi sudut lengan.
-                                <a href="https://github.com/RonAaron61/Bioimpedance_measure_microcontroller">GitHub</a>
-                            </p> 
+                                A tool for measuring a person's bioimpedance, using a microcontroller as a signal processor and 
+                                reader for measurement results, and displaying them. The tool made consists of a signal generator 
+                                which uses a Wien bridge oscillator circuit and AD9833 Module to produce a sine signal, 
+                                then VCCS to convert the voltage input into a current source so that it is safe when it enters the body, 
+                                then the signal read using an instrument amplifier as an amplifier for easy reading, and converted into a DC signal 
+                                to be read by the microcontroller. The results of the tool can read 
+                                the impedance value both on the resistor and on the human body.
+                                <a href="https://github.com/RonAaron61/Bioimpedance_measure_microcontroller"><b>GitHub</b></a>
+                            </p>                            
                         </li>
                         <li>
-                            Virtual Mouse-Keyboard
+                            Hand angle estimation using bioimpedance
                             <p>
-                                Saya membuat mouse dan keyboard virtual menggunakan kamera sebagai input. 
-                                Kamera mendeteksi lokasi tangan dan memetakannya dengan lebar dan tinggi 
-                                monitor kemudian memindahkan kursor ke lokasi tertentu, serta juga bekerja sebagai keyboard virtual. 
-                                Saya puas dengan hasilnya, meski belum sempurna, dan masih terbuka untuk pengembangan 
-                                lebih lanjut.
-                                 <a href="https://github.com/RonAaron61/Virtual-Mouse-Keyboard">GitHub</a>
+                                Using a previous project, the bioimpedance of a human hand can be used to estimate the angle at the human elbow, 
+                                which can be used to move a robotic hand
+                                <a href="https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/blob/main/AD9833.md"><b>GitHub</b></a>
+                            </p>
+                        </li>
+                        <li>
+                            Low Cost Electrical Impedance Tomography using Microcontroller
+                            <p>
+                                Making Electrical Impedance Tomography (EIT) using a Microcontroller, 
+                                namely ESP32-S2 with MicroPython. This tool consists of a microcontroller which functions 
+                                to control the electrode output, regulate the signal frequency, and obtain data. 
+                                Then the data will be processed using the Python program with the PyEIT library to reconstruct the resulting data into a 2D image. 
+                                This EIT can be used on several types of electrodes with a maximum of 16 electrodes.
+                                <a href="https://github.com/RonAaron61/EIT-Microcontroller" ><b>GitHub</b></a>
+                            </p>
+                        </li>
+                        <li>
+                            Virtual Mouse and Keyboard
+                            <p>
+                                I'm making virtual mouse and keyboard using camera as the input. The camera
+                                detect the location of my hand and map it with the width and height of the monitor
+                                then move the cursor to certain location, work the same with the keyboard. 
+                                I'm satisfied with the result, although it's not perfect, and still open to further development.
+                                 <a href="https://github.com/RonAaron61/Virtual-Mouse-Keyboard"><b>GitHub</b></a>
                             </p>
                         </li>
                         <li>
                             Smart trash bin
                             <p>
-                                Pada project ini saya membuat sebuah tempat sampah IoT pintar yang dapat otomatis
-                                terbuka ketika terdapat tangan di depan tempat sampah, atau ketika terdapat
-                                ketukan/dorongan. Sehingga pengguna tidak perlu menyentuh tempat sampah Sehingga
-                                mengurangi kemungkinan terjadinya penyebaran kuman atau penyakit melalui tempat sampah.
-                                Tempat sampah ini juga memiliki sensor untuk mengetahui apakah isi dari tempat sampah
-                                sudah penuh atau belum, dan dapat dilihat melalui aplikasi blink karena tempat sampah ini 
-                                juga terhubung ke internet.
-                                <a href="https://github.com/RonAaron61/smart_trashbin">GitHub</a>
+                                In this project I created an IoT trash can that can automatically open when there is a hand 
+                                in front of the trash can, or when there is a knock/push. So users don't need to touch the trash can, 
+                                thereby reducing the possibility of spreading germs or disease through the trash can. 
+                                This trash can also has a sensor to find out whether the contents of the trash can are full or not, 
+                                and can be seen via the blink application because this trash can is also connected to the internet.
+                                <a href="https://github.com/RonAaron61/smart_trashbin"><b>GitHub</b></a>
                             </p>
                         </li>
                         <li>
-                            Kamera "CCTV" pengikut wajah sederhana
+                            Simple face follower "CCTV" camera
                             <p>
-                                sebuah kamera yang dapat mengikuti posisi wajah dari seseorang secara otomatis.
-                                Alat ini menggunakan kamera webcam sebagai input video, yang kemudian akan dibaca oleh 
-                                program python menggunakan library OpenCV dan Mediapipe untuk mendeteksi posisi wajah dan mengirimkan
-                                posisi wajah tersebut ke arduino yang kemudian digunakan untuk menggerakan motor servo 
-                                untuk menggerakan kamera webcam keposisi wajah target. 
-                                <a href="https://github.com/RonAaron61/Face-following-camera"> GitHub</a>
+                                a camera that can follow a person's facial position automatically. This tool uses a webcam camera as video input, 
+                                which will then be read by a Python program using the OpenCV and Mediapipe libraries to detect the position of the face 
+                                and send the face position to the Arduino which is then used to move the servo motor to move the webcam camera to the position of the target face. 
+                                <a href="https://github.com/RonAaron61/Face-following-camera"> <b>GitHub</b></a>
                             </p>
                         </li>
                         <li>
                             Face following eye
                             <p>
-                                Serupa seperti pada project diatas tetapi output dari alat ini bukanlah menggerakan
-                                kamera kearah wajah subjet, tetpai dari koordinat posisi wajah subjek kemudian digunakna 
-                                untuk menggerakan suatu animasi bergambar mata yang akan membuat seolah selalu melihat
-                                karah posisi subject. Menggunakan layar OLED 0.96" sebagai output.
-                                <a href="https://github.com/RonAaron61/EyeFollowingFace">GitHub</a>
+                                same like the previous project, but the output of this device is not to move a camera
+                                but from the face coordinate it can be used to move an eye animation, so it can always look
+                                at the subject. Uisng the 0.96" OLED to displat the image.
+                                <a href="https://github.com/RonAaron61/EyeFollowingFace"><b>GitHub</b></a>
                             </p>
                         </li>
                         <li>
                             Conway's game of life
                             <p>
-                                Membuat aplikasi conway's game of life menggunakan program python dengan library PyGame,
-                                dimana pengguna dapat menyesuaikan besar area permainan, dan letak mulai permainan.
-                                <a href="https://github.com/RonAaron61/Game-of-life-Conway">GitHub</a>
+                                Create a Conway's Game of Life application using the Python program with the PyGame library, 
+                                where users can adjust the size of the game area and the starting location of the game.
+                                <a href="https://github.com/RonAaron61/Game-of-life-Conway"><b>GitHub</b></a>
                             </p>
                         </li>
                         <!--
@@ -124,18 +134,6 @@
                             </p>
                         </li>
                         -->
-                        <li>
-                            Low Cost Electrical Impedance Tomography with Microcontroller
-                            <p>
-                                On Progres | Membuat Electrical Impedance Tomography (EIT) menggunakan Microcontroller yaitu ESP32-S2 dengan
-                                MicroPython. Alat ini terdiri dari microcontroller yang berfungsi sebagai kontrol output elektroda,
-                                mengatur frekuensi sinyal, serta mendapatkan data. Kemudian data akan diproses menggunakan program python
-                                dengan library PyEIT untuk merekonstruksi hasil data menjadi citra 2D. EIT ini dapat digunakan 
-                                pada beberapa macam elektroda dengan maksimal adalah 16 elektroda. 
-                                <a href="https://github.com/RonAaron61/EIT-Microcontroller" > GitHub </a>
-
-                            </p>
-                        </li>
                     </div>
                 </div>
             </div>
