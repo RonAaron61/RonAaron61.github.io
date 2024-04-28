@@ -1,0 +1,504 @@
+<!--
+    If you're reading this, yes I know that the code is messy. I'm not that good ad HTML and CSS okay.
+    Last time I really learned HTML was when I was in high school, and I need to recall everything to make this :D
+-->
+<!DOCTYPE html>
+<html>
+    <!-- HEAD -->
+    <head>
+        <title>
+            RonAaron61
+        </title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/image/logo_placeholder.png" />
+        <script src="https://kit.fontawesome.com/10a8743776.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/index.css">
+    </head>
+
+    <!-- BODY -->
+    <body bgcolor="#f0f0f0">
+        <!-- TOP NAV -->
+        
+        <a href="index-id.html" class="language" title="Translate to Indonesia">
+            <i class="fa-solid fa-language fa-2xl" style="color: white"></i>
+        </a>
+        <aside class="topNav" id="topNav">
+            <div class="container-fluid">
+                <!--
+                <a class="active" href="index.html">
+                    <h2> Home </h2>
+                </a>
+                -->
+
+                <a href="assets/AboutMe.html">
+                    <h2> About </h2>
+                </a>
+
+                <a href="#P-project">
+                    <h2> Project </h2>
+                </a>
+
+                <div class="dropdown">
+                    <a class="dropbtn">
+                        <h2>Resume</h2>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="assets/pdf/resume_EN.pdf">
+                            <h2>Resume</h2>
+                        </a>
+                        <a href="assets/pdf/CV_Aaron.pdf">
+                            <h2>CV</h2>
+                        </a>
+                    </div>                    
+                </div>
+            </div>
+        </aside>
+
+        <!-- Isi -->
+        <div class="pageHeader" id="top">
+            <div class="info-photo">
+                <img src="assets/image/me_round.png" alt="Info" width=200px height=200px>
+            </div>
+            <div class="info">
+                <p>
+                    Hello! My name is 
+                    <a href="assets/AboutMe.html" style="color:black"><b>Valentinus Mahendra Aaron Quendangen</b></a>
+                    <br><br> 
+                    I'm Biomedical Engineer from Universitas Airlangga
+                    <br>
+                    --------------- --- ---------------
+                    <br>
+                    Interesed in robotic, electronic, engineering, programming and medical field
+                </p>
+            </div>
+        </div>
+
+        <!-- About -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h1 class="text-center">
+                            About Me
+                        </h1>
+                        <p>
+                            Individuals who are motivated to work hard in carrying
+                            out work activities to achieve success and gain
+                            experience. Like to learning new things to gain more experience, especially
+                            by doing or helping some project or research.
+                            During my studies in Biomedical Engineering major at Airlangga University,
+                            I learned a loot, including programing (C++, Python, Matlab, JavaScript), 
+                            analog and digital electronic, anatomy, physiology, and control system. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <!--
+        <section class="swot">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>
+                        SWOT
+                    </h2>
+                    <div class="grid-container">
+                        <div class="grid-item Strengths">
+                            <h3>
+                                Strengths
+                            </h3>
+                            <ul class="swot-list">
+                                <li>
+                                    Flexible
+                                </li>
+                                <li>
+                                    Interest in learning new things and skills
+                                </li>
+                                <li>
+                                    Can adapt to new environment
+                                </li>
+                                <li>
+                                    Have basic knowledge of hardware, software and health
+                                </li>
+                                <li>
+                                    Have experience of trials and errors
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="grid-item Weaknesses">
+                            <h3>
+                                Weaknesses
+                            </h3>
+                            <ul class="swot-list">
+                                <li>
+                                    Lack of time management
+                                </li>
+                                <li>
+                                    Not good at making decisions, especially when other people involved
+                                </li>
+                                <li>
+                                    Sometimes I'm thinking that I can do everything by myself, but in fact
+                                    I need help.
+                                </li>
+                                <li>
+                                    Sometimes overthinking
+                                </li>
+                                
+                            </ul>   
+                        </div>
+                        <div class="grid-item Opportunities">
+                            <h3>
+                                Opportunities
+                            </h3>
+                            <ul class="swot-list">
+                                <li>
+                                    Still have the opportunity to upgrade skills through online training
+                                </li>
+                                <li>
+                                    Fast at learning something new
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="grid-item Threats">
+                            <h3>
+                                Threats
+                            </h3>
+                            <ul class="swot-list">
+                                <li>
+                                    Sometimes I need a motivation to do something
+                                </li>
+                                <li>
+                                    Lack experience in the world of work
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>  
+                                    
+                </div>
+            </div>
+        </section>
+        -->
+
+        <!-- Project -->
+        <section class="project" id="P-project">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>
+                        Project
+                    </h2>
+                    <div class="project-list">
+                        <div class="personal-project">
+                            <h3>
+                                Personal Project
+                            </h3>
+                            <p>
+                                Sometimes I try to make something in my spare time. Sometimes useful things and 
+                                sometimes useless things. Although sometimes the things I make are not 
+                                perfect but this can add to my experience of trial and error
+                            </p>
+                            <br>
+                            <li>
+                                EMG-ECG Module for Microcontroller
+                                <p>
+                                    I try making an EMG-ECG module for a microcontroller like Arduino or ESP. 
+                                    The module consists of instrument amplifier using AD620 IC and some basic 
+                                    bandpass filters with an inverting amplifier using Op-amp IC. After some 
+                                    adjustment in the gain, the module can detect muscle movement in the forearm
+                                     flexor muscle and heartbeat, with only 3 connections to the microcontroller 
+                                     (2 for the supply and 1 for the output).
+                                     <a href="https://github.com/RonAaron61/EMG-ECG_Arduino"><b>GitHub</b></a>
+                                </p>
+                            </li>
+                            <li>
+                                Virtual Mouse-Keyboard
+                                <p>
+                                    I'm making virtual mouse and keyboard using camera as the input. The camera
+                                    detect the location of my hand and map it with the width and height of the monitor
+                                    then move the cursor to certain location, work the same with the keyboard. 
+                                    I'm satisfied with the result, although it's not perfect, and still open to further development.
+                                     <a href="https://github.com/RonAaron61/Virtual-Mouse-Keyboard"><b>GitHub</b></a>
+                                </p>
+                            </li>
+                            
+                            <li>
+                                Bioimpedance measure using Microcontroller
+                                <p>
+                                    A tool for measuring a person's bioimpedance, using a microcontroller as a signal processor and 
+                                    reader for measurement results, and displaying them. The tool made consists of a signal generator 
+                                    which uses a Wien bridge oscillator circuit and AD9833 Module to produce a sine signal, 
+                                    then VCCS to convert the voltage input into a current source so that it is safe when it enters the body, 
+                                    then the signal read using an instrument amplifier as an amplifier for easy reading, and converted into a DC signal 
+                                    to be read by the microcontroller. The results of the tool can read 
+                                    the impedance value both on the resistor and on the human body.
+                                    <a href="https://github.com/RonAaron61/Bioimpedance_measure_microcontroller"><b>GitHub</b></a>
+                                </p> 
+                            </li>
+                            <li>
+                                Hand angle estimation using bioimpedance
+                                <p>
+                                    Using a previous project, the bioimpedance of a human hand can be used to estimate the angle at the human elbow, 
+                                    which can be used to move a robotic hand
+                                    <a href="https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/blob/main/AD9833.md"><b>GitHub</b></a>
+                                </p>
+                            </li>
+                            <li>
+                                Electrical Impedance Tomography with Microcontroller
+                                <p>
+                                    Making Electrical Impedance Tomography (EIT) using a Microcontroller, 
+                                    namely ESP32-S2 with MicroPython. This tool consists of a microcontroller which functions 
+                                    to control the electrode output, regulate the signal frequency, and obtain data. 
+                                    Then the data will be processed using the Python program with the PyEIT library to reconstruct the resulting data into a 2D image. 
+                                    This EIT can be used on several types of electrodes with a maximum of 16 electrodes.
+                                    <a href="https://github.com/RonAaron61/EIT-Microcontroller" > <b>GitHub</b> </a>
+    
+                                </p>
+                            </li>
+                            <p>
+                                <a href="https://RonAaron61.github.io/project/index.html"><b>My other projects</b></a>
+                                <br>
+                                <a href="https://github.com/RonAaron61">My GitHub</a>
+                            </p>
+                            
+                        </div>
+                        <br>
+                        <div class="thesis">
+                            <h3> Undergraduate Thesis</h3>
+                            <p>
+                                During my studies in Biomedical Engineering major at Airlangga University, 
+                                I specialized in the Medical Instrumentation field and conducted 
+                                a research thesis titled <b>"Design of Electrical Impedance Tomography 
+                                (EIT) To Detect Breast Cancer Using Analog Discovery Module"</b>. 
+                                This project involved both hardware and software. For the hardware consists of some 
+                                basic circuitry including filter, multi/demultiplexer, vccs and instrument amplifier, and
+                                for the controller using Analog Discovery 2. The software consists of Analog Discovery programing
+                                (JavaScript) and EIDORS (Matlab) for the image reconstruction.
+                                <!--
+                                    <a href="assets/image/Skripsi.png">Thesis</a>
+                                -->
+                            </p>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </section>
+
+        
+        <!-- Experience -->
+        <section class="experience" id="Experience">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">
+                        Experience
+                    </h2>
+                    <div class="exp-list">
+                        <p>
+                            Experience that I got during my 4 years at university
+                        </p>
+                        <div>
+                            <h3>
+                                Organization
+                            </h3>
+                            <li>
+                                FORMAT (Faculty Press Organization)
+                                <dl>
+                                    Layouter and Designer 
+                                </dl>
+                            </li>
+                            <li>
+                                BKK (Faculty Catholic Organization)
+                                <dl>
+                                    MEDINFO (Media and Information)<br>
+                                    Head of Human Resources Development
+                                </dl>
+                            </li>
+                        
+                            <h3>
+                                Achievement
+                            </h3>
+                            <li>
+                                Best team work at Sebelas Maret International IoT Challange 2021
+                                <dl>
+                                </dl>
+                            </li>
+                            <li>
+                                Silver award for iMIT SIC 2021 (4th International Malaysia-Indonesia-Thailand Symposioum on Innovation and Creativity 2021)
+                                held by UiTM Cawangan Malaysia
+                                <dl>
+                                    <a href='https://www.researchgate.net/publication/354329818_PROSIDING-IMITSIC-2021' target="_blank">
+                                        3D (THREE-DIMENSIONAL) LUNG CANCER DETECTION AND IDENTIFICATION BASED ON MIXED REALITY
+                                    </a>
+                                    <!-- page 128/324 -->
+                                </dl>
+                            </li>
+                        
+                            <h3>
+                                Other Experience
+                            </h3>
+                            <li>
+                                Community service activities
+                                <dl>
+                                    September 2022 | 
+                                    Training on Making IoT-Based Medical Sensors as an Introduction to Smart Medical Devices for High School/Vocational School Students 
+                                    in Trenggalek Regency, East Java Province |
+                                    <a href='https://journal.unram.ac.id/index.php/pepadu/article/view/2370' target="_blank">
+                                        "Training on the Design and Construction of Audiovisual Based Fatigue Detection Tools to Improve Work Quality and Health"
+                                    </a>
+                                    <!-- https://doi.org/10.29303/pepadu.v4i2.2370 -->
+                                    <div class="Ex-skill">
+                                        <li>
+                                            Speaking, Assisting, Troubleshooting
+                                        </li>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                               X-Mano (Exoskeleton Hand Robot) for Movement Therapy of Post-Stroke Patients | Merdeka Belajar Kampus Merdeka (MBKM) - Matching Fund
+                                <dl>
+                                    September 2022 - January 2023 | X-Mano (Exoskeleton Hand Robot) for Movement Therapy of Post-Stroke Patients. 
+                                    Part of the MBKM activities held by the Minister of Education and Culture. This project is a collaboration between 
+                                    <a href="https://ibereality.com/">IBEReality</a> and Airlangga University to develop an exoskeleton hand to help post-stroke patients.
+                                    <div class="Ex-skill">
+                                        <li>
+                                            3D Printing, AutoDesk Inventor, Microcontroller, Clinical trial, Entrepreneurship
+                                        </li>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                Research Engineer Assistant at Neonatal Research Group FK (Faculty of Medicine) Universitas Airlangga
+                                <dl>
+                                    August 2023 - February 2024 |
+                                    Assisting in the development of research on the  Smart Phototherapy System Airlangga Bilirubin Nesting (AirBiliNest), 
+                                    which is a phototherapy tool for jaundiced babies. Assist in assembling, reproduce and testing the prototype as well as implementing the MBKM Matching Fund 
+                                    events related to this tool.
+                                    <div class="Ex-skill">
+                                        <li>
+                                            Troubleshooting, Microcontroller, Laser Cutting, Soldering, Communication, Testing, Demonstrating
+                                        </li>
+                                    </div>
+                                </dl>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- keahlian -->
+        <!--
+        <section id="skill" class="skill">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>
+                        Skill
+                    </h2>
+                    <div class="skill-my">
+                        <p>
+                            From the various projects, activities and learning that I have done, 
+                            I have several skills that I have used while working on various personal projects, 
+                            assignments and other things.
+                        </p>
+                        <div class="skill-list">
+                            <h4>
+                                Programing Language
+                            </h4>
+                            <li>
+                                Python / MicroPython
+                            </li>
+                            <li>
+                                C++ / Arduino
+                            </li>
+                            <li>
+                                HTML
+                            </li>
+                            <li>
+                                Matlab
+                            </li>
+
+                            <h4>
+                                Microcontroller or other instruments
+                            </h4>
+                            <li>
+                                Arduino UNO, pro micro 
+                            </li>
+                            <li>
+                                ESP32, ESP8266, ESP32-S2
+                            </li>
+                            <li>
+                                Attiny85
+                            </li>
+                            <li>
+                                Analog Discovery 2
+                            </li>
+
+                            <h4>
+                                Other
+                            </h4>
+                            <li>
+                                Laser cutting
+                            </li>
+                            <li>
+                                Basic electronic
+                            </li>
+                            <li>
+                                Electrical circuits, analog and digital electronics
+                            </li>
+                            <li>
+                                Soldering
+                            </li>
+                            <li>
+                                PCB design
+                            </li>
+                            <li>
+                                Graphic design
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+
+
+        <footer>
+            <div class="contact">
+                <div class="row">
+                    <h4>
+                        <strong>
+                            Valentinus Mahendra Aaron Quendangen
+                        </strong>
+                    </h4>
+                    <i class="fa-regular fa-envelope">
+                    </i>
+                    <a href="mailto:aaronvalentinus@gmail.com">
+                        aaronvalentinus@gmail.com
+                    </a>
+                    <br>
+                    <ul class="media">
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/valentinus-mahendra-aaron-quendangen-568898282">
+                                <i class="fa-brands fa-linkedin fa-2xl" style="color: #558dec;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/RonAaron61">
+                                <i class="fa-brands fa-github fa-2xl" style="color: #558dec;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://youtube.com/@ronaaron4422?si=HosZOPWt5jGBxrKP">
+                                <i class="fa-brands fa-youtube fa-2xl" style="color: #558dec;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <h5>
+                        2024
+                    </h5>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
