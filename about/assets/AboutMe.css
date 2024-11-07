@@ -306,15 +306,15 @@ body{
     .experience{
         background-color: #ffffff;
         font-family: sans-serif; 
-        padding: 8px;
+        padding: 2px;
     } 
 
     /* ========== SWOT ========== */
     .swot{
-        background-color: #aaaaaa;
-        /*background-color: #437cdf;*/
+        /*background-color: #aaaaaa;*/
+        background-color: #437cdf;
         font-family: sans-serif;
-        padding: 8px;
+        padding: 2px;
     }
 
 
@@ -326,7 +326,7 @@ body{
     .media li{
         display: inline-block;
         text-align: center;
-        padding: 20px 10px;
+        padding: 30px 10px;
         font-size: 20px;
     }
 
