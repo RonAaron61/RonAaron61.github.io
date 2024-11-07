@@ -96,10 +96,18 @@ body{
     font-family: sans-serif;  
 }
 
+.photo-me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 220px;
+}
+
 .info p{
     margin-top: 50px;
-    font-size: 20px; 
-    text-align: left;  
+    font-size: 20px;  
+    text-align: justify; 
 }
 
 .row{
@@ -251,4 +259,76 @@ body{
 }
 .fa-youtube:hover{
     color: #342e89 !important;
+}
+
+
+/* MOBILE STYLES (Responsive) */
+@media (max-width: 768px) {
+    /* ========== Name Profile ========== */
+    .pageHeader{
+        padding: 50px;
+        text-align: center;
+        font-family: sans-serif;  
+    }
+
+    .photo-me{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+    }
+
+    .info p{
+        margin-top: 50px;
+        font-size: 20px;  
+        text-align: justify; 
+    }
+
+    .thesis h2{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .thesis p{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 50px;
+        font-size: 16px;
+        text-align: justify;
+        color: white;
+    }
+
+    /* ========= EXPERIENCE ========= */
+    .experience{
+        background-color: #ffffff;
+        font-family: sans-serif; 
+        padding: 20px;
+    } 
+
+    /* ========== SWOT ========== */
+    .swot{
+        background-color: #437cdf;
+        font-family: sans-serif;
+        padding: 10px;
+    }
+
+
+    .skill{
+        padding: 30px;
+    }
+
+
+    .media li{
+        display: inline-block;
+        text-align: center;
+        padding: 30px 10px;
+        font-size: 27px;
+    }
+    .fa
+
+
 }
