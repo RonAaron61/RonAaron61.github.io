@@ -127,10 +127,9 @@ body{
 .thesis{
     background-color: #437cdf;
     font-family: sans-serif; 
-    padding: 30px;
-    
-    
+    padding: 30px; 
 }
+
 .thesis h2{
     margin-top: 50px;
     margin-bottom: 40px;
@@ -285,11 +284,12 @@ body{
         text-align: justify; 
     }
 
+    /* ========= THESIS ========= */
     .thesis h2{
         margin-top: 50px;
         margin-bottom: 40px;
         text-align: center;
-        font-size: 18px;
+        font-size: 25px;
         color: white;
     }
     
@@ -314,6 +314,11 @@ body{
         /*background-color: #aaaaaa;*/
         background-color: #437cdf;
         font-family: sans-serif;
+        padding: 2px;
+    }
+    .grid-container {
+        display: inline-block;
+        grid-template-columns: 50% auto;
         padding: 2px;
     }
 

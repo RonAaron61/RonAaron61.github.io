@@ -125,32 +125,6 @@ body{
 }
 
 
-/* ========== SWOT ========== */
-.swot{
-    background-color: #437cdf;
-    font-family: sans-serif;
-}
-.swot h2{
-    color: white;
-    font-size: 35px;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: 50% auto;
-    padding: 8px;
-}
-.grid-item{
-    font-size: 20px;
-    color:white;
-}
-.grid-item li{
-    font-size: 16px;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-
-
 /* ========== PERSONAL PROJECT ========= */
 .project{
     background-color: #bad3fc;
@@ -253,4 +227,105 @@ body{
 }
 .fa-youtube:hover{
     color: #342e89 !important;
+}
+
+
+/* MOBILE STYLES (Responsive) */
+@media (max-width: 768px) {
+    /* ========== Name Profile ========== */
+    .pageHeader{
+        padding: 40px;
+        text-align: center;
+        font-family: sans-serif;  
+    }
+
+    .photo-me{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+        height: 220px;
+    }
+
+
+
+    /* ========== ABOUT ========== */
+    .row{
+        padding: 10px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .row h1{
+        font-size: 30px;
+    }
+    .row p{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    /* ========= THESIS ========= */
+    .project h2{
+        font-size: 30px;
+    }
+    .project-list{
+        text-align: left;
+        font-size: 18px;
+    }
+    .personal-project p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .thesis h3{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .thesis p{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        font-size: 16px;
+        text-align: justify;
+        color: black;
+    }
+
+    /* ========= EXPERIENCE ========= */
+    .experience{
+        background-color: #ffffff;
+        font-family: sans-serif; 
+        padding: 2px;
+    } 
+
+    /* ========== SWOT ========== */
+    .swot{
+        /*background-color: #aaaaaa;*/
+        background-color: #437cdf;
+        font-family: sans-serif;
+        padding: 2px;
+    }
+    .grid-container {
+        display: inline-block;
+        grid-template-columns: 50% auto;
+        padding: 2px;
+    }
+
+
+    .skill{
+        padding: 8px;
+    }
+
+
+    .media li{
+        display: inline-block;
+        text-align: center;
+        padding: 30px 10px;
+        font-size: 20px;
+    }
+
 }
