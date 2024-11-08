@@ -102,12 +102,13 @@ body{
 }
 
 .info{
-    padding-top: 270px;
-    padding-bottom: 270px;
+    padding-top: 290px;
+    padding-bottom: 290px;
     padding-left: 100px;
     padding-right: 100px;
-    background-image: url('image\background-2.jpg');
-    background-size: 2000px;
+    background-image: url("image/background3.jpg");
+    background-color: transparent;
+    background-size: 2100px;
     background-position: center;
 }
 
@@ -116,6 +117,11 @@ body{
     font-size: 26px;
     color: white;
     text-align: center;
+    text-decoration: none;
+}
+
+.info p a{
+    text-decoration: none;
 }
 
 .text-center{
@@ -133,6 +139,7 @@ body{
     padding-left: 50px;
     padding-right: 50px;
 }
+
 .project h2{
     color: white;
     font-size: 35px;
@@ -148,6 +155,9 @@ body{
     margin-right: 10px;
     font-size: 16px;
     text-align: justify;
+}
+.project-list p a{
+    color: white;
 }
 .other-projects{
     font-size: 19px;
@@ -169,6 +179,9 @@ body{
 .experience h2{
     color: black;
     font-size: 35px;
+}
+.exp-list a{
+    color: black;
 }
 .exp-list p{
     margin-left: 10px;
@@ -237,9 +250,7 @@ body{
     font-family: sans-serif;
     color: white;
 }
-
-.row a{ /* href without underline */
-    text-decoration: none;
+.contact a{
     color: white;
 }
 
@@ -272,7 +283,7 @@ body{
     /* ========== Name Profile ========== */
     .language{
         position: absolute;
-        padding: 20px;
+        padding: 15px;
     }
 
     .topNav a {
@@ -280,9 +291,9 @@ body{
         color: #f2f2f2;
         text-align: center;
         padding: 8px 8px;
-        width: 80px;
+        width: 60px;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 8px;
         font-family: sans-serif;  
     }
     /* The dropdown container */
@@ -297,13 +308,18 @@ body{
         font-family: sans-serif;  
     }
 
+    .row{
+        padding: 20px 20px;
+        margin-left: 12px;
+        margin-right: 12px; 
+    }
     
     .info{
-        padding-top: 290px;
-        padding-bottom: 290px;
+        padding-top: 320px;
+        padding-bottom: 320px;
         padding-left: 50px;
         padding-right: 50px;
-        background-image: url('..\about\assets\image\background-2.jpg');
+       
     }
     
     .info p{
@@ -328,6 +344,9 @@ body{
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .about-text{
+        padding-top: 45px;
+    }
     .about-title{
         font-size: 28px;
         text-decoration: underline;
@@ -342,8 +361,8 @@ body{
 
     /* ========= THESIS ========= */
     .project{
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     .project h2{
         font-size: 30px;
@@ -353,8 +372,8 @@ body{
         font-size: 18px;
     }
     .personal-project p{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     
     .thesis h3{
