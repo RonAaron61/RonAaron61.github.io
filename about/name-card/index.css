@@ -12,10 +12,7 @@ body{
 .container-fluid{
     text-align: center;
 }
-.language{
-    position: absolute;
-    padding: 25px;
-}
+
 
 /* Style the links inside the navigation bar */
 .topNav a {
@@ -55,15 +52,15 @@ body{
 
 
 .info #name{
-    color: black;
+    color: #17196b;
     font-family: sans-serif;
     font-size: 30px;
 }   
 
-#specialist{
-    color: black;
+.info #specialist{
+    color: #17196b;
     font-family: sans-serif;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 
@@ -75,6 +72,7 @@ body{
     padding: 0;
     overflow: hidden;
     text-align: left;
+    color: #17196b;
 }
 .s-media li{ 
     font-size: 28px;
@@ -88,4 +86,43 @@ body{
 .fa-github, .fa-youtube, .fa-globe, .fa-linkedin, .fa-envelope{
     vertical-align: middle;
     margin-right: 16px;
+}
+
+/* MOBILE STYLES (Responsive) */
+@media (max-width: 768px) {
+    /* ========== Name Profile ========== */
+    .topNav a {
+        padding: 2px 8px;
+        width: 80px;
+        font-size: 14px; 
+    }
+    
+    .pageHeader{
+        padding: 10px;
+        margin-top: 50px;
+        text-align: center;
+        font-family: sans-serif;  
+    }
+
+    .box{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .photo_me{
+        width: auto;
+        height: 220px;
+    }
+    .info #name{
+        font-size: 25px;
+    }   
+    
+    .info #specialist{
+        font-size: 20px;
+    }
+    .icon-text{
+        vertical-align: middle;
+        font-size: 15px;
+    }
+
+
 }
