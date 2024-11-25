@@ -1,0 +1,168 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.topNav {
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;  
+}
+.container-fluid{
+    text-align: center;
+}
+
+
+/* Style the links inside the navigation bar */
+.topNav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 5px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;  
+}
+
+/* Change the color of links on hover */
+.topNav a:hover {
+    background-color: #fefefe;
+    color: black;
+}
+.fa-language:hover{
+    color: #9992f9 !important;
+}
+
+/* ========== Certificate ========= */
+.container{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.experience-title{
+    margin-bottom: 50px;
+}
+.workshop{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 5px;
+}
+.activity{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 5px;
+}
+.lomba{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5px;
+}
+.panitia{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 5px;
+}
+.certf-title{
+    text-align: left;
+    font-size: 20px;
+}
+.container img{
+    height: 200px;
+    width: auto;
+}
+.isi{
+    text-align: left;
+}
+/* ========== FOOTER ========== */
+.contact{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.row a{ /* href without underline */
+    text-decoration: none;
+}
+
+.media{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.media li{
+    display: inline-block;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 17px;
+}
+.fa-linkedin:hover{
+    color: #342e89 !important;
+}
+.fa-github:hover{
+    color: #342e89 !important;
+}
+.fa-youtube:hover{
+    color: #342e89 !important;
+}
+
+
+/* MOBILE STYLES (Responsive) */
+@media (max-width: 768px) {
+    .topNav a {
+        display: inline-block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 8px 8px;
+        width: 80px;
+        text-decoration: none;
+        font-size: 10px;
+        font-family: sans-serif;  
+    }
+    /* ========== Name Profile ========== */
+    .pageHeader{
+        padding: 40px;
+        text-align: center;
+        font-family: sans-serif;  
+    }
+
+
+    .media li{
+        display: inline-block;
+        text-align: center;
+        padding: 30px 10px;
+        font-size: 20px;
+    }
+
+    .container{
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .workshop{
+        display: inline-block;
+        padding: 5px;
+    }
+    .activity{
+        display: inline-block;
+        padding: 5px;
+    }
+    .lomba{
+        display: inline-block;
+        padding: 5px;
+    }
+    .panitia{
+        display: inline-block;
+        padding: 5px;
+    }
+    .certf-title{
+        text-align: left;
+        font-size: 20px;
+    }
+
+}
