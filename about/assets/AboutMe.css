@@ -199,6 +199,24 @@ body{
 }
 
 
+/* ========== Publiclations ========*/
+.publication{
+    background-color: #ffffff;
+    font-family: sans-serif; 
+    padding: 80px;
+}
+
+.publication h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.publication li{
+    text-align: justify;
+    font-size: 14px;
+}
+
 /* ========== Skill ========== */
 .skill{
     padding: 80px;
@@ -314,6 +332,14 @@ body{
         font-family: sans-serif; 
         padding: 2px;
     } 
+
+    /* ======== Publication ========= */
+    .publication{
+        background-color: #ffffff;
+        font-family: sans-serif; 
+        padding: 2px;
+    }
+    
 
     /* ========== SWOT ========== */
     .swot{
