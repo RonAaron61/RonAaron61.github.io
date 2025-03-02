@@ -169,6 +169,21 @@ body{
     font-size: 16px;
     text-align: justify;
 }
+/* BUTTON */
+.project button{
+    align-items: center;
+    background-color: #437cdf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.project button:hover{
+    background-color: #ffffff;
+    color: #437cdf;
+}
 
 /* ========= EXPERIENCE ========= */
 .experience{
