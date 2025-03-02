@@ -4,9 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Project Portfolio</title>
-        <link rel="stylesheet" href="assets/style.css?v=<?= filemtime('assets/style.css') ?>">
+        <link rel="stylesheet" href="assets/style.css">
     </head>
     <body>
+    <aside class="topNav" id="topNav">
+            <div class="container-fluid">
+                <a href="https://ronaaron61.github.io">
+                    <h2> Home </h2>
+                </a>
+
+                <a href="https://ronaaron61.github.io/about/">
+                    <h2> About </h2>
+                </a>
+            </div>
+        </aside>
+        
         <div class="project-container">
             <h1>Projects</h1>
 
