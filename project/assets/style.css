@@ -76,6 +76,13 @@ body {
 .project a:hover {
     text-decoration: underline;
 }
+.project img {
+    max-width: 250px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 .circle {
     width: 10px;
     height: 10px;
@@ -118,18 +125,16 @@ body {
     color: greenyellow;
 }
 
-@media (max-width: 1200px) {
-    .project {
-        flex: 1 1 calc(33.33% - 40px);
-    }
-}
-@media (max-width: 900px) {
-    .project {
-        flex: 1 1 calc(50% - 40px);
-    }
-}
-@media (max-width: 600px) {
+/* MOBILE STYLES (Responsive) */
+@media (max-width: 768px) {
     .project {
         flex: 1 1 100%;
+    }
+    .project img {
+        max-width: 200px;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
