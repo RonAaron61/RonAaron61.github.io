@@ -119,6 +119,36 @@ body{
     
 }
 
+/* ========= Projects ======== */
+.project{
+    background-color: #3c3c3c;
+    font-family: sans-serif; 
+    padding: 30px; 
+    color: white;
+    text-align: center;
+}
+.project button{
+    background-color: #437cdf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.project button:hover{
+    background-color: #ffffff;
+    color: #437cdf;
+}
+.project p{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    text-align: justify;
+    color: white;
+}
+
 /* ========== PERSONAL PROJECT ========= */
 .thesis{
     background-color: #437cdf;

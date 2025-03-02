@@ -15,7 +15,7 @@
         <meta name="keywords" content="about, ronaaron, ronaaron61, electrical impedance tomography, valentinus mahendra aaron quendangen">
         <link rel="shortcut icon" type="image/x-icon" href="assets/image/logo_placeholder.ico" />
         <script src="https://kit.fontawesome.com/10a8743776.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="assets/AboutMe.css">
+        <link rel="stylesheet" href="assets/AboutMe.css?v=<?= filemtime('assets/AboutMe.css') ?>">
     </head>
 
     <!-- BODY -->
@@ -75,6 +75,18 @@
                     by doing or helping some project or research.
                 </p>
             </div>
+        </div>
+
+        <div class="project">
+            <h2>Projects</h2>
+            <p>
+                Sometimes I try to make something in my spare time. Sometimes useful things and 
+                    sometimes useless things. Although sometimes the things I make are not 
+                    perfect but this can add to my experience of trial and error
+            </p>
+            <a href="https://ronaaron61.github.io/project/" target="_blank">
+                <button>View My Projects</button>
+             </a> 
         </div>
 
         <!-- Thesis -->
